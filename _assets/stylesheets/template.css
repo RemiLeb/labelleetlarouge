@@ -1615,7 +1615,7 @@ section * {
   }
 }
 .header-10-sub .background {
-  background-image: url("../img/img-1.jpg");
+  background-image: url("/images/camping_labelle_et_la_rouge.jpg");
   opacity: 85;
   filter: alpha(opacity=8500);
   opacity: 0.85;
@@ -1659,7 +1659,7 @@ section * {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('../img/Italy_001.png');
+  background-image: url('/images/balancoir.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
