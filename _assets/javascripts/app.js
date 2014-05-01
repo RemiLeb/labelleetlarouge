@@ -1,0 +1,8 @@
+//= require "jquery-1.10.2.min.js"
+//= require "bootstrap.min.js"
+//= require "modernizr.custom.js"
+//= require "jquery.scrollTo-1.4.3.1-min.js"
+//= require "jquery.parallax.min.js"
+//= require "startup-kit.js"
+//= require "jquery.backgroundvideo.min.js"
+//= require "template.js"
