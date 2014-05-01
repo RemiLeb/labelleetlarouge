@@ -1664,7 +1664,16 @@ section * {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.content-23.custom-bg-2 {
+  background-image: url('/images/riviere_rouge.jpg');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .footer-3 {
   background-color: #1B1F23;
   color: #7F8C8D;
+}
+.description_site img{
+  width: 285px;
 }
