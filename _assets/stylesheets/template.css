@@ -991,6 +991,7 @@ section * {
   color: #ffffff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }
 .header-10-sub .hero-unit p {
   font-size: 25px;
