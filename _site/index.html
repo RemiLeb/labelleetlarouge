@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Crew Control">
     <meta name="author" content="Shipout Technology">
-    <link rel="stylesheet" type="text/css" href="/assets/app-ee4cea31cf583acf71e9884b4eeaca1e.css">
+    <link rel="stylesheet" type="text/css" href="/assets/app-2c3f73465980a4741cfdd637e3646a60.css">
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -16,20 +16,21 @@
       <!-- header-10 -->
       <header class="header-10">
         <div class="container">
-          <div class="navbar col-sm-12" role="navigation">
+          <div id="navbar" class="navbar col-sm-12 navbar-fixed-top" role="navigation">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle"></button>
-              <a class="brand" href="/">Camping et tipis Labelle et la Rouge</a>
+              <a id="brand" class="brand" href="/">Camping et tipis Labelle et la Rouge</a>
             </div>
             <div class="collapse navbar-collapse pull-right">
               <ul class="nav pull-left">
-                <li class="active"><a href="/">Accueil</a></li>
-                <li><a href="#">Site</a></li>
-                <li><a href="#">Prix</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="#sites">Sites</a></li>
+                <li><a href="#activite">Activité</a></li>
+                <li><a href="#prix">Prix</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
               <form class="navbar-form pull-left">
-                <a class="btn btn-info" href="#">Réservez maintenant</a>
+                <a class="btn btn-info" href="#contact">Réservez maintenant</a>
               </form>
             </div>
           </div>
@@ -44,11 +45,6 @@
     <div class="container">
       <div class="hero-unit">
         <h1>Vivez une expérience unique dans un environnement exceptionnel</h1>
-        <p>
-          We’ve created the product that will help your
-          <br/>
-          startup to look even better.
-        </p>
       </div>
     </div>
   </div>
@@ -56,7 +52,7 @@
 </section>
 
 <!-- content-7  -->
-<section class="content-7 v-center">
+<section id="sites" class="content-7 v-center">
   <div>
     
     <div class="container">
@@ -78,8 +74,7 @@
         <div class="col-sm-4 description_site">
           <img src="/images/chalet.jpg" alt="chalet rustique">
           <h6>Chalet des Amoureux</h6>
-          Petit chalet rustique pour 2 personnes.<br/>
-          Lit d'appoint disponible
+          Petit chalet rustique fait à la main pouvant accueillir deux personnes, le tout dans une ambiance intime. À l’intérieur, on y retrouve l’essentiel pour y passer du bon temps. Celui-ci comprend, un futon, une cuisine, une table à manger et un poêle à bois.
         </div>
       </div>
     </div>
@@ -131,12 +126,48 @@
   </div>
   <a class="control-btn fui-arrow-down" href="#"> </a>
 </section>
-
-<!-- content-8  -->
-<section class="content-8 price-1">
+<section id="activite" class="content-8">
   <div>
     <div class="container">
-      <h3>Plus de 30 merveilleux sites</h3>
+      <h2>Activités</h2>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <h3>Sur le site</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Volley-ball</li>
+            <li class="list-group-item">Badminton</li>
+            <li class="list-group-item">Accès à la rivière Rouge</li>
+            <li class="list-group-item">Randonnée pédestre</li>
+            <li class="list-group-item">Cueillette de fruits sauvage</li>
+            <li class="list-group-item">Directement situé sur la piste cyclable</li>
+            <li class="list-group-item">Randonnée en canot ou kayak</li>
+            <li class="list-group-item">Pêche</li>
+          </ul>
+        </div>
+        <div class="col-sm-4">
+          <h3>À proximité</h3>
+          <ul class="list-group">
+            <li class="list-group-item">Golf</li>
+            <li class="list-group-item">Tennis</li>
+            <li class="list-group-item">Escalade</li>
+            <li class="list-group-item">Croisière  </li>
+            <li class="list-group-item">Équitation</li>
+            <li class="list-group-item">Restaurants et bars</li>
+            <li class="list-group-item">Patins à roues alignées</li>
+            <li class="list-group-item">À 10 minutes du village piétonnier du Mont-Tremblant</li>
+            <li class="list-group-item">Festivals et spectacles à Tremblant et dans la région.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- content-8  -->
+<section id="prix" class="content-8 price-1">
+  <div>
+    <div class="container">
+      <h3>Le camping sauvage à votre portée</h3>
       <div class="row plans">
         <div class="col-sm-3">
           <div class="plan">
@@ -205,8 +236,38 @@
           <p>Possibilité de location du site avec ou sans cuisinette pour événements spéciaux ou ateliers divers.</p>
         </div>
       </div>
+
     </div>
   </div>
+</section>
+
+<section id="contact" class="content-8">
+  <div>
+    <div class="container">
+      <h2>Contact</h2>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <p>Veuillez prendre note que nous prenons uniquement les réservations par téléphone pour le moment.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 col-sm-offset-2">
+          <address>
+            Camping et Tipi Labelle et la Rouge<br>
+            252 des Geais Bleus, Labelle Québec, J0T 1H0<br>
+            Téléphone : <a href="tel:1-819-686-1954">1 (819) 686-1954</a>
+        </address>
+        </div>
+        <div class="col-sm-4">
+          <a href="mailto:info@labelleetlarouge.com">info@labelleetlarouge.com</a>
+        </div>
+      </div>
+      <p>
+    </div>
+  </div>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2760.3902768689927!2d-74.698668!3d46.22258300000001!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccf9b7fa3acc2a1%3A0xf7852c45aa3061dc!2sCamping+Labelle+et+la+Rouge!5e0!3m2!1sen!2sca!4v1398993250993" width="100%" height="400" frameborder="0" style="border:0"></iframe>
 </section>
  
 
@@ -214,16 +275,18 @@
       <footer class="footer-3">
         <div class="container">
           <div class="row v-center">
-            <div class="col-sm-2">
+            <div class="col-sm-5">
               <a class="brand" href="/">Camping et tipis Labelle et la Rouge</a>
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-4">
             </div>
             <div class="col-sm-3">
               <h6>Labelle, QC</h6>
               <div class="address">
-                252 Des geais-bleus labelle<br/>
-                Labelle, Qc, J0T 1H0
+                <address>
+                  252 Des geais-bleus labelle<br/>
+                  Labelle, Qc, J0T 1H0
+                </address>
               </div>
             </div>
           </div>
