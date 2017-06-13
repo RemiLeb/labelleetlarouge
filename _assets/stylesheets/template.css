@@ -1647,23 +1647,22 @@ section * {
   filter: alpha(opacity=10);
 }
 .content-23.custom-bg {
-  background-image: url('/images/balancoir.jpg');
+  background-image: url('/images/camping-chien.jpg');
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-.content-23.custom-bg-2 {
-  background-image: url('/images/riviere_rouge.jpg');
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
+.content-23.custom-bg .hero-unit{
+  background: #167ac6;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  text-align: center;
+ }
 .footer-3 {
   background-color: #1B1F23;
   color: #7F8C8D;
-}
-.description_site img{
-  width: 285px;
 }
 .price-1 {
   padding-bottom: 110px;
@@ -1762,4 +1761,15 @@ section * {
   font-weight: 500;
   text-transform: none;
   margin-left: 22px
+}
+.plan.custom-bg-2 {
+  background: url('/images/camping_trembant_plan_site.jpg');
+  height: 1440px;
+  display: block;
+}
+.plan.custom-bg-2 h1{
+  color: #fff;
+}
+.plan.custom-bg-2 .btn{
+  margin-top: 1250px;
 }
