@@ -1381,8 +1381,6 @@ section * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   .content-23.v-center.row,
   .content-23 .v-center.row {
